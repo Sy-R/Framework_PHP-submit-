@@ -1,0 +1,78 @@
+An exception occurred: Error while inserting record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.user' doesn't exist
+{
+    "Exception Class": "Exception",
+    "File": "C:\\wamp64\\400006369_Framework\\framework\\ORM.php",
+    "Line": 89,
+    "Stack Trace": "#0 C:\\wamp64\\www\\web\\CreateUserValidationController.php(88): framework\\ORM->create('user', Array)\n#1 C:\\wamp64\\www\\web\\RGMCreateUserResponse.php(29): web\\CreateUserValidationController->create('Test', 'rgm@gmail.com', 'RGMDASHBOARD1', 'Researcher')\n#2 C:\\wamp64\\400006369_Framework\\app\\controllers\\Router.php(54): web\\RGMCreateUserResponse->index()\n#3 C:\\wamp64\\www\\web\\RGMCreateUser.php(18): app\\controllers\\Router->dispatch('\/web\/RGMCreateU...')\n#4 {main}"
+}
+
+
+An exception occurred: Error while inserting record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.user' doesn't exist
+{
+    "Exception Class": "Exception",
+    "File": "C:\\wamp64\\400006369_Framework\\framework\\ORM.php",
+    "Line": 89,
+    "Stack Trace": "#0 C:\\wamp64\\www\\web\\CreateUserValidationController.php(88): framework\\ORM->create('user', Array)\n#1 C:\\wamp64\\www\\web\\RGMCreateUserResponse.php(29): web\\CreateUserValidationController->create('Test', 'rgm@gmail.com', 'RSMDASHBOARD1', 'Researcher')\n#2 C:\\wamp64\\400006369_Framework\\app\\controllers\\Router.php(54): web\\RGMCreateUserResponse->index()\n#3 C:\\wamp64\\www\\web\\RGMCreateUser.php(18): app\\controllers\\Router->dispatch('\/web\/RGMCreateU...')\n#4 {main}"
+}
+
+
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.uers' doesn't exist
+{
+    "Exception Class": "Exception",
+    "File": "C:\\wamp64\\400006369_Framework\\framework\\ORM.php",
+    "Line": 53,
+    "Stack Trace": "#0 C:\\wamp64\\www\\web\\CreateUserValidationController.php(72): framework\\ORM->find('uers', 'username', 'katie', Array)\n#1 C:\\wamp64\\www\\web\\RGMCreateUserResponse.php(29): web\\CreateUserValidationController->create('katie', 'rgm@gmail.com', 'overTherainbow1', 'Researcher')\n#2 C:\\wamp64\\400006369_Framework\\app\\controllers\\Router.php(54): web\\RGMCreateUserResponse->index()\n#3 C:\\wamp64\\www\\web\\RGMCreateUser.php(18): app\\controllers\\Router->dispatch('\/web\/RGMCreateU...')\n#4 {main}"
+}
+
+
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.usrs' doesn't exist
+{
+    "Exception Class": "Exception",
+    "File": "C:\\wamp64\\400006369_Framework\\framework\\ORM.php",
+    "Line": 53,
+    "Stack Trace": "#0 C:\\wamp64\\www\\web\\LoginAuthController.php(44): framework\\ORM->find('usrs', 'email', 'rgm@gmail.com')\n#1 C:\\wamp64\\www\\web\\LoginResponse.php(25): web\\LoginAuthController->login('rgm@gmail.com', 'RGMDASHBOARD1')\n#2 C:\\wamp64\\400006369_Framework\\app\\controllers\\Router.php(54): web\\LoginResponse->index()\n#3 C:\\wamp64\\www\\web\\Login.php(19): app\\controllers\\Router->dispatch('\/web\/Login.php')\n#4 {main}"
+}
+
+
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.user' doesn't exist
+{
+    "Exception Class": "Exception",
+    "File": "C:\\wamp64\\400006369_Framework\\framework\\ORM.php",
+    "Line": 53,
+    "Stack Trace": "#0 C:\\wamp64\\www\\web\\LoginAuthController.php(44): framework\\ORM->find('user', 'email', 'rgm@gmail.com')\n#1 C:\\wamp64\\www\\web\\LoginResponse.php(25): web\\LoginAuthController->login('rgm@gmail.com', 'RGMDASHBOARD1')\n#2 C:\\wamp64\\400006369_Framework\\app\\controllers\\Router.php(54): web\\LoginResponse->index()\n#3 C:\\wamp64\\www\\web\\Login.php(19): app\\controllers\\Router->dispatch('\/web\/Login.php')\n#4 {main}"
+}
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.user' doesn't exist
+
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.user' doesn't exist
+{
+    "Exception Class": "Exception",
+    "File": "C:\\wamp64\\400006369_Framework\\framework\\ORM.php",
+    "Line": 53,
+    "Stack Trace": "#0 C:\\wamp64\\www\\web\\LoginAuthController.php(44): framework\\ORM->find('user', 'email', 'rgm@gmail.com')\n#1 C:\\wamp64\\www\\web\\LoginResponse.php(25): web\\LoginAuthController->login('rgm@gmail.com', 'RGMDASHBOARD1')\n#2 C:\\wamp64\\400006369_Framework\\app\\controllers\\Router.php(54): web\\LoginResponse->index()\n#3 C:\\wamp64\\www\\web\\Login.php(19): app\\controllers\\Router->dispatch('\/web\/Login.php')\n#4 {main}"
+}
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.user' doesn't exist
+
+Validation Error
+{
+    "username": "Field(s) required",
+    "email": "Field(s) required",
+    "password": "Field(s) required"
+}
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.usrs' doesn't exist
+{
+    "Exception Class": "Exception",
+    "File": "C:\\wamp64\\400006369_Framework\\framework\\ORM.php",
+    "Line": 53,
+    "Stack Trace": "#0 C:\\wamp64\\www\\web\\CreateUserValidationController.php(72): framework\\ORM->find('usrs', 'username', 'katie', Array)\n#1 C:\\wamp64\\www\\web\\RGMCreateUserResponse.php(29): web\\CreateUserValidationController->create('katie', 'rgm@gmail.com', 'sdfghjk124tyui4...', 'Researcher')\n#2 C:\\wamp64\\400006369_Framework\\app\\controllers\\Router.php(54): web\\RGMCreateUserResponse->index()\n#3 C:\\wamp64\\www\\web\\RGMCreateUser.php(18): app\\controllers\\Router->dispatch('\/web\/RGMCreateU...')\n#4 {main}"
+}
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.usrs' doesn't exist
+
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.sers' doesn't exist
+{
+    "Exception Class": "Exception",
+    "File": "C:\\wamp64\\400006369_Framework\\framework\\ORM.php",
+    "Line": 53,
+    "Stack Trace": "#0 C:\\wamp64\\www\\web\\RegistrationValidationController.php(69): framework\\ORM->find('sers', 'username', 'katie', Array)\n#1 C:\\wamp64\\www\\web\\RegistrationResponse.php(29): web\\RegistrationValidationController->register('katie', 'rssssm@gmail.co...', 'RGMDASHBOARD1', 'Research Study ...')\n#2 C:\\wamp64\\400006369_Framework\\app\\controllers\\Router.php(54): web\\RegistrationResponse->index()\n#3 C:\\wamp64\\www\\web\\Registration.php(19): app\\controllers\\Router->dispatch('\/web\/Registrati...')\n#4 {main}"
+}
+An exception occurred: Error while fetching record: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user_management_system.sers' doesn't exist
+
